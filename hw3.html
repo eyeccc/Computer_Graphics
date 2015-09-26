@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="[add your bin description]">
+  <meta charset="utf-8">
+  <title>Tsūtenkaku</title>
+  <!-- you need to load TWGL from somewhere -
+    -- this grabs it from the CS server, which
+    -- might take a while
+    -->
+<h1>Simple version of Tsūtenkaku in Osaka!</h1>
+<canvas id="myCanvas" 
+              width="600" height="600"
+              style="border:1px solid #000;">
+     </canvas><br/>
+Fov: (demo gets clear when fov set to min)
+<input id="sliderf" type="range" min="10" max="90"></br>    
+Perspective: (Un/Check and move other bar)
+<input type="checkbox" id="check">
+  <!--input id="sliderp" type="range" min="-500" max = "0"-->
+</br>
+<!--  Rotate around x axis:
+  <input id="slider" type="range" min="-100" max="100" /></br>
+  Rotate around y axis:
+   <input id="slider1" type="range" min="-100" max="100" /></br>
+  Rotate around z axis:
+   <input id="slider2" type="range" min="-100" max="100" /></br> -->
+Look From x:
+<input id="sliderx" type="range" min="0" max="300" /></br>
+Look From y:
+<input id="slidery" type="range" min="-200" max="200" /></br>
+Look From z:
+<input id="sliderz" type="range" min="-600" max="-350" /></br>
+
+Look At x:
+<input id="sliderxx" type="range" min="0" max="100" /></br>
+Look At y:
+<input id="slideryy" type="range" min="-100" max="400" /></br>
+Look At z:
+<input id="sliderzz" type="range" min="-300" max="100" /></br>
+<script src="http://graphics.cs.wisc.edu/JS/twgl-full.min.js"></script>
+   <script src="hw3.js"></script>
+ 
+ 
+</head>
+<body>
+
+</body>
+</html>
